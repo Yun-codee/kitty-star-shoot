@@ -67,7 +67,7 @@ export class Player {
       this.playerCharacter = "cat9";
     }
 
-    if (inputKeys.has("ArrowUp")) {
+    if (inputKeys.has("w")) {
       this.playerY = Math.max(this.playerY - 3, 0);
       this.fallAcceleration = 0;
     } else {
