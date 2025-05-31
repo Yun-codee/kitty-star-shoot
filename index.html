@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <canvas id="gameCanvas"></canvas>
+    <p style="text-align: left; margin-top: 15px; font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(219, 140, 153);">Press 1-9 to select player skin</p>
+<p style="text-align: left; margin-top: 15px; font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(219, 140, 153);">Press "p" to change sky</p>
+    <div>
+      <p style="text-align: left; margin-top: 15px; font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(219, 140, 153);">Stars per second</p>
+      <input type="range" min="0.5" max="5" step="0.5" value="1" id="starballsSlider">
+      <p id="starballsPerSecondDisplay">1</p>
+    </div>
+
+    <audio id="bgm" autoplay loop>
+      <source src="mp3/BGM1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('bgm').play()">Play Music</button>
+    <button onclick="document.getElementById('bgm').pause()">Pause Music</button>
+
+    <img src="img/background-sky.png" id="backgroundSky" />
+    <img src="img/background-sky-2.png" id="backgroundSky2"/>
+    <img src="img/background-sky-3.png" id="backgroundSky3"/>
+    <img src="img/background-sky-4.png" id="backgroundSky4"/>
+    <img src="img/background-sky-5.png" id="backgroundSky5"/>
+    <img src="img/background-sky-6.png" id="backgroundSky6"/>
+    <img src="img/player-sprites.png" id="playerSprites" />
+    <img src="img/goal-alert.png" id="goalAlert" />
+    <img src="img/player-sprites-cat.png" id="playerSpritesCat" />
+    <img src="img/player-sprites-cat-3.png" id="playerSpritesCat3" />
+    <img src="img/player-sprites-cat-4.png" id="playerSpritesCat4" />
+    <img src="img/player-sprites-cat-5.png" id="playerSpritesCat5" />
+    <img src="img/player-sprites-cat-6.png" id="playerSpritesCat6" />
+    <img src="img/player-sprites-cat-7.png" id="playerSpritesCat7" />
+    <img src="img/player-sprites-cat-8.png" id="playerSpritesCat8" />
+    <img src="img/player-sprites-cat-9.png" id="playerSpritesCat9" />
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
