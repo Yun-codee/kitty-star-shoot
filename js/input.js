@@ -1,4 +1,4 @@
-const gameKeys = ["ArrowUp", " ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "p", "o"];
+const gameKeys = ["w", " ", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "p", "o"];
 
 export class InputHandler {
   constructor() {
