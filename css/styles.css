@@ -1,0 +1,15 @@
+#gameCanvas {
+  border: 2px solid rgb(224, 184, 199);
+  aspect-ratio: 800/500;
+  max-width: 100%;
+  max-height: 100%;
+}
+body {
+  background-color: rgb(255, 220, 225);
+}
+#playerSprites, #backgroundSky, #goalAlert, #playerSpritesCat, 
+#playerSpritesCat3, #playerSpritesCat4, #playerSpritesCat5, #playerSpritesCat6, 
+#playerSpritesCat7, #playerSpritesCat8, #playerSpritesCat9, #backgroundSky2,
+#backgroundSky3, #backgroundSky4, #backgroundSky5, #backgroundSky6{
+  display: none;
+}
